@@ -1,0 +1,30 @@
+{
+  "name": "express-ts",
+  "version": "1.0.0",
+  "description": "A express app with typescript, jest and eslint+prettier",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
+    "test": "jest"
+  },
+  "author": "Gonzalo Murillas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
